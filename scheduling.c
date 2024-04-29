@@ -79,8 +79,6 @@ void PriorityScheduling(Process processes[], int n) {
     FCFS(processes, n); // Reusing FCFS since Priority Scheduling is simply FCFS with sorted input
 }
 
-
-
 int main() {
     Process processes[] = {
         {1, 6, 1, 2}, {2, 8, 1, 1}, {3, 7, 2, 3}, {4, 3, 3, 2}
